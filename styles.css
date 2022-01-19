@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 8vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+.navbar ul li{
+    display: inline;
+    list-style-type: none;
+}
+.list li button{
+    border-radius: 0;
+    width: 50px;
+    padding: 1px;
+}
+.navbar .runButton{
+    margin: 0px 10px 0px 0px;
+    padding: 5px;
+}
+main{
+    display: flex;
+    height: 92vh;
+    width: 100vw;
+    justify-content:safe;
+}
+.textArea{
+    width: auto;
+    height: 100%;
+}
+#htmlTA, #cssTA, #jsTA , #iframeId{
+    height: 100%;
+    width: 25vw;
+    font-size: 30px;
+    visibility: hidden;
+}
+

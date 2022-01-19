@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h4>Online Code Editor</h4>
+        <div class="list">
+            <ul>
+                <li class="toggle selected"><button id="htmlButtonId">HTML</button></li>
+                <li class="toggle selected"><button id="cssButtonId">CSS</button></li>
+                <li class="toggle selected"><button id="jsButtonId">JS</button></li>
+                <li class="toggle selected"><button id="resultButtonId">Result</button></li>
+            </ul>
+        </div>
+        <button class="runButton" id="runButtonId">Run</button>
+    </div>
+    <main class="textEditors">
+        <div class="textArea">
+            <textarea name="htmlTextArea" id="htmlTA" cols="10" rows="10" placeholder="Enter html here"></textarea>
+        </div>
+        <div class="textArea">
+            <textarea name="cssTextArea" id="cssTA" cols="10" rows="10" placeholder="Enter css here"></textarea>
+        </div>
+        <div class="textArea">
+            <textarea name="jsTextArea" id="jsTA" cols="10" rows="10" placeholder="Enter js here"></textarea>
+        </div>
+        <div class="result"><iframe id="iframeId"></iframe></div>
+    </main>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
